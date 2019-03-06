@@ -10,13 +10,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String str = "FECHCHPGCHFD";
+        String str = scanner.nextLine();
         String[] array = str.split("(?<=\\G.{2})"); // ab cd ef
 
         for (int i = 0; i < array.length; i++) {
             char pierwsze = array[i].charAt(0);
             char drugie = array[i].charAt(1);
-            int x1 = 0, x2 = 0, licznik1 = 0, licznik2 = 0, suma = 0, dupa;
+            int x1 = 0, x2 = 0, licznik1 = 0, licznik2 = 0, suma = 0;
 
             for (char ch = 'A'; ch <= 'P'; ch++) {
                 if (pierwsze == ch) {
@@ -34,15 +34,13 @@ public class Main {
                 licznik2++;
 
             }
-
-            System.out.println(x1+x2);
+            suma = x1 + x2;
+            char digit= (char) suma;
+            System.out.print(digit);
 
         }
     }
 }
-
-
-
 
 
 //            if(pierwsze == 'A') {
