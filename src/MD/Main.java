@@ -32,6 +32,7 @@ public class Main {
                     break;
                 }
                 licznik2++;
+
             }
 
             System.out.println(x1+x2);
