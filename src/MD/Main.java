@@ -1,7 +1,5 @@
 package MD;
 
-import java.math.BigInteger;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -35,121 +33,12 @@ public class Main {
 
             }
             suma = x1 + x2;
-            char digit= (char) suma;
+            char digit = (char) suma;
             System.out.print(digit);
 
         }
     }
 }
 
-
-//            if(pierwsze == 'A') {
-//                x1 = 0;
-//            }
-//             if(pierwsze == 'B') {
-//                x1 = 1;
-//            }
-//             if(pierwsze == 'C') {
-//                x1 = 2;
-//            }
-//             if(pierwsze == 'D') {
-//                x1 = 3;
-//            }
-//             if(pierwsze == 'E') {
-//                x1 = 4;
-//            }
-//             if(pierwsze == 'F') {
-//                x1 = 5;
-//            }
-//             if(pierwsze == 'G') {
-//                x1 = 6;
-//            }
-//             if(pierwsze == 'H') {
-//                x1 = 7;
-//            }
-//             if(pierwsze == 'I') {
-//                x1 = 8;
-//            }
-//             if(pierwsze == 'J') {
-//                x1 = 9;
-//            }
-//             if(pierwsze == 'K') {
-//                x1 = 10;
-//            }
-//             if(pierwsze == 'L') {
-//                x1 = 11;
-//            }
-//             if(pierwsze == 'M') {
-//                x1 = 12;
-//            }
-//             if(pierwsze == 'N') {
-//                x1 = 13;
-//            }
-//             if(pierwsze == 'O') {
-//                x1 = 14;
-//            }
-//             if(pierwsze == 'P') {
-//                x1 = 15;
-//            }
-
-
-//        for(int i=0; i<array.length; i++){
-//            char pierwsze= array.
-//            int x;
-//            for(int j=0; j<sign.length; j++){
-//                if(sign[j]== 'A'){
-//                    x= 0;
-//                }
-//                if(sign[j]== 'A'){
-//                    x= 0;
-//                }
-//                if(sign[j]== 'A'){
-//                    x= 0;
-//                }
-//                if(sign[j]== 'A'){
-//                    x= 0;
-//                }
-//                if(sign[j]== 'A'){
-//                    x= 0;
-//                }
-//                if(sign[j]== 'A'){
-//                    x= 0;
-//                }
-//                if(sign[j]== 'A'){
-//                    x= 0;
-//                }
-//                if(sign[j]== 'A'){
-//                    x= 0;
-//                }
-//                if(sign[j]== 'A'){
-//                    x= 0;
-//                }
-//                if(sign[j]== 'A'){
-//                    x= 0;
-//                }
-//                if(sign[j]== 'A'){
-//                    x= 0;
-//                }
-//                if(sign[j]== 'A'){
-//                    x= 0;
-//                }
-//                if(sign[j]== 'A'){
-//                    x= 0;
-//                }
-//                if(sign[j]== 'A'){
-//                    x= 0;
-//                }
-//                if(sign[j]== 'A'){
-//                    x= 0;
-//                }
-//                if(sign[j]== 'A'){
-//                    x= 0;
-//                }
-//                if(sign[j]== 'A'){
-//                    x= 0;
-//                }
-//                if(sign[j]== 'A'){
-//                    x= 0;
-//                }
 
 
